@@ -7,8 +7,8 @@ import random
 
 
 app = Client("my_account")
-api_id = 21114418
-api_hash = "8c00e7776168a841528f9c1e8bbbe9a7"
+api_id = your api id
+api_hash = "your api hash"
 
 
 # Команда type
