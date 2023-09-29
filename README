@@ -14,3 +14,11 @@ API Telegram через учетную запись пользователя
 Async : полностью асинхронный (для удобства также можно использовать синхронно).
 Мощный : полный доступ к API Telegram для выполнения любых официальных действий клиента и многого другого.
 
+
+Установка-Installing:
+
+
+pip install pyrogram
+
+pip install TgCrypto  Fast: Boosted up by TgCrypto, a high-performance 
+                            cryptography library written in C.
