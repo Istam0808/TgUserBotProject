@@ -7,8 +7,8 @@ import random
 
 
 app = Client("my_account")
-api_id = your api id
-api_hash = "your api hash"
+api_id = #your api id
+api_hash = #"your api hash"
 
 
 # Команда type
