@@ -1,14 +1,13 @@
 from pyrogram import Client , filters
 from pyrogram.errors import FloodWait
-from pyrogram.types import ChatPermissions
-import time
 from time import sleep
 import random
 
 
 app = Client("my_account")
-api_id = #your api id
-api_hash = #"your api hash"
+api_id = "tour_api_id"
+api_hash = "your ip hash"
+
 
 
 # Команда type
@@ -17,7 +16,7 @@ def type(_, msg):
     orig_text = msg.text.split(".type ", maxsplit=1)[1]
     text = orig_text
     tbp = "" # to be printed
-    typing_symbol = "◘"
+    typing_symbol = "▒"
  
     while(tbp != orig_text):
         try:
@@ -69,48 +68,6 @@ def hack(_, msg):
  
     # msg.edit("🦖 Найдены данные о существовании вас на земле!")
 
-@app.on_message(filters.command("hack1", prefixes=".") & filters.me)
-def hack(_, msg):
-    perc = 0
-
-    while(perc < 100):
-        try:
-            text = "Hacking in progress... " + str(perc) + "%"
-            msg.edit(text)
-
-            perc += random.randint(1, 3)
-            sleep(0.1)
-
-        except FloodWait as e:
-            sleep(e.x)
-
-    msg.edit("Hacking complete!")
-    sleep(1)
-
-    msg.edit("Accessing confidential files...")
-    sleep(2)
-
-    msg.edit("Extracting sensitive information...")
-    sleep(2)
-
-    msg.edit("Override security protocols...")
-    sleep(2)
-
-    msg.edit("Stealing bank account details...")
-    sleep(2)
-
-    msg.edit("Access granted!")
-    sleep(1)
-
-    msg.edit("Mission successful! Target hacked.")
-    sleep(1)
-
-    msg.edit("Deleting all traces...")
-    sleep(2)
-
-    msg.edit("Hack complete!")
-    sleep(1)
-    sleep(e.x)
 
 
 app.run()
@@ -130,7 +87,11 @@ app.run()
 #↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 
 # from pyrogram import Client
-# api_id = 21114418
-# api_hash = "8c00e7776168a841528f9c1e8bbbe9a7"
+# api_id = "tour_api_id"
+# api_hash = "your ip hash"
 # app = Client("my_account", api_id=api_id, api_hash=api_hash)
 # app.run()
+
+
+# Свой api_id и api_hash вы можете найти по ссылке  => https://my.telegram.org/auth
+# more info: in file / jpegs
