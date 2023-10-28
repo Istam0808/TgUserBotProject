@@ -3,11 +3,9 @@ from pyrogram.errors import FloodWait
 from time import sleep
 import random
 
-
 app = Client("my_account")
 api_id = "tour_api_id"
 api_hash = "your ip hash"
-
 
 
 # Команда type
