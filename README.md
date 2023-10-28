@@ -53,5 +53,5 @@ You can look at the photo Registracia
 ## ISTAM
       ___ ___ ___  __   _   _  
        |  \__  |  |__| | \ / |  
-      _|_  __| |  |  | |  |  |   company
+      _|_  __| |  |  | |  |  | company
                                      
