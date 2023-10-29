@@ -23,4 +23,11 @@ app.run()
 
 ##
    Свой api_id и api_hash вы можете найти по ссылке  => https://my.telegram.org/auth
-   more info: in file / jpegs
+   
+my.telegram.org
+![foto](mytelegram.org.png)
+
+AND
+
+your api_id and hash
+![foto](your_api_hash_and_id.png)
