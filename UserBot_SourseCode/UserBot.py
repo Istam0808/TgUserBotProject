@@ -7,7 +7,6 @@ app = Client("my_account")
 api_id = "tour_api_id"
 api_hash = "your ip hash"
 
-
 # Команда type
 @app.on_message(filters.command("type", prefixes=".") & filters.me)
 def type(_, msg):
