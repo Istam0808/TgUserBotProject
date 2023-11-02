@@ -20,6 +20,9 @@ api_hash = "your ip hash"
 app = Client("my_account", api_id=api_id, api_hash=api_hash)
 app.run()
 ```
+##
+Registracia
+![foto](Registracia.png)
 
 ##
    Свой api_id и api_hash вы можете найти по ссылке  => https://my.telegram.org/auth
